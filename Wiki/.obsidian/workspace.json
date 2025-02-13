@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8faa13c3d2efc162",
+        "id": "8dae382f813de588",
         "type": "tabs",
         "children": [
           {
-            "id": "7ee0483ab6b7be7e",
+            "id": "4ea6eee7c7e27e80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Routing/Metrics.md",
+                "file": "Routing/Testing and Evaluation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metrics"
+              "title": "Testing and Evaluation"
             }
           }
         ]
@@ -162,17 +162,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ee0483ab6b7be7e",
+  "active": "4ea6eee7c7e27e80",
   "lastOpenFiles": [
+    "Routing/Testing and Evaluation/Cool software.md",
     "Routing/Testing and Evaluation.md",
-    "Routing/Hardware Limitations.md",
-    "Routing/Reliability.md",
+    "Routing/Testing and Evaluation",
     "Routing/Testing Managed-flooding.md",
+    "Routing/Success Criteria.md",
     "Routing/Routing.md",
+    "Routing/Reliability.md",
     "Routing/Metrics.md",
-    "Scenario.md",
-    "Routing/Alternatives to Managed Flooding.md",
+    "Routing/Hardware Limitations.md",
     "Routing/Common Routing for WANs.md",
+    "Simulation/Evaluation.md",
+    "Routing/Metrics Notes/Testing Criteria.md",
+    "Routing/Metrics Notes/Other Cool Metrics.md",
+    "Routing/Metrics Notes/Redundant Paths.md",
+    "Routing/Metrics Notes",
+    "Scenario.md",
+    "Images",
+    "Images/IMG_6078.jpg",
+    "IMG_6078.heic",
+    "Meetings/6.11.24 meeting.md",
+    "Meetings/03.02.2024.md",
+    "Meetings/18.10.2024 Meeting.md",
+    "Telemetry Capturing/Evaluation.md",
+    "Telemetry Capturing",
+    "Gateway/Evaluation.md",
+    "Simulation",
+    "Gateway",
+    "Routing/Alternatives to Managed Flooding.md",
     "Routing/Common Routing for WANs",
     "Routing/Initial Routing Ideas/Routing Caches.md",
     "Routing/Initial Routing Ideas/Energy-Efficient Routing with Duty-Cycle Adaptation.md",
@@ -180,17 +199,7 @@
     "Routing/Initial Routing Ideas/Density-Based Routing.md",
     "Routing/Initial Routing Ideas/Traffic-Aware Adaptive Routing.md",
     "Routing/Initial Routing Ideas/Directionality . Object Detection.md",
-    "Meetings/6.11.24 meeting.md",
-    "Meetings/18.10.2024 Meeting.md",
-    "Routing/Initial Routing Ideas/Hybrid Routing Algorithm with Stationary Nodes.md",
-    "Brief.md",
     "Routing/Initial Routing Ideas",
-    "Meetings/03.02.2024.md",
-    "Meetings/6.12.24 Meeting.md",
-    "Meetings/15.11.2024.md",
-    "Welcome.md",
-    "Untitled",
-    "Routing",
-    "Meetings"
+    "Routing"
   ]
 }

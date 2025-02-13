@@ -40,11 +40,11 @@ Checkout `Metrics` for Metric details.
 
 Checkout `Reliability` for details on how reliability is defined.
 
-
 **What do we want to test for:**
 Checkout `Testing and Evaluation` for details.
 
+**Hardware Limitations:**
+Checkout `Hardware Limitations`
 
-
-
-Hardware Limitations:
+Success Criteria:
+Checkout `Success Criteria`

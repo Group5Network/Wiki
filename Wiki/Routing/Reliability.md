@@ -1,4 +1,5 @@
 **How we define reliability:**
+Increased likelihood that a packet reaches the destination. We can't guarantee since we are broadcasting (why cant we guarantee)
 
 Packet delivery.
 

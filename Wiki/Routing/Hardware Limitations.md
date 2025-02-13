@@ -1,0 +1,3 @@
+There might be more complex algorithms out there that could do the work better, commonly used for WANs. However, after testing, they are too computationally expensive. Here is why...
+
+Two types of nodes. What is the most common hardware and is it the one we got?

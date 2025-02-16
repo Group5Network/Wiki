@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Routing/Testing and Evaluation.md",
+                "file": "Routing/Metrics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Testing and Evaluation"
+              "title": "Metrics"
             }
           }
         ]
@@ -162,10 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ea6eee7c7e27e80",
+  "active": "b9d0f62b5876b226",
   "lastOpenFiles": [
-    "Routing/Testing and Evaluation/Cool software.md",
     "Routing/Testing and Evaluation.md",
+    "Images/IMG_6121.jpg",
+    "Routing/Testing and Evaluation/Cool software.md",
     "Routing/Testing and Evaluation",
     "Routing/Testing Managed-flooding.md",
     "Routing/Success Criteria.md",
@@ -198,7 +199,6 @@
     "Routing/Initial Routing Ideas/Smart Hop-Limit Adjustment.md",
     "Routing/Initial Routing Ideas/Density-Based Routing.md",
     "Routing/Initial Routing Ideas/Traffic-Aware Adaptive Routing.md",
-    "Routing/Initial Routing Ideas/Directionality . Object Detection.md",
     "Routing/Initial Routing Ideas",
     "Routing"
   ]

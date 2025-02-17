@@ -164,14 +164,15 @@
   },
   "active": "4ea6eee7c7e27e80",
   "lastOpenFiles": [
-    "Routing/Testing and Evaluation/Cool software.md",
+    "Routing/Metrics.md",
     "Routing/Testing and Evaluation.md",
+    "Images/IMG_6121.jpg",
+    "Routing/Testing and Evaluation/Cool software.md",
     "Routing/Testing and Evaluation",
     "Routing/Testing Managed-flooding.md",
     "Routing/Success Criteria.md",
     "Routing/Routing.md",
     "Routing/Reliability.md",
-    "Routing/Metrics.md",
     "Routing/Hardware Limitations.md",
     "Routing/Common Routing for WANs.md",
     "Simulation/Evaluation.md",
@@ -198,7 +199,6 @@
     "Routing/Initial Routing Ideas/Smart Hop-Limit Adjustment.md",
     "Routing/Initial Routing Ideas/Density-Based Routing.md",
     "Routing/Initial Routing Ideas/Traffic-Aware Adaptive Routing.md",
-    "Routing/Initial Routing Ideas/Directionality . Object Detection.md",
     "Routing/Initial Routing Ideas",
     "Routing"
   ]

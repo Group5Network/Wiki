@@ -13,10 +13,10 @@ How to Collect from Nodes:
 - Destination nodes should acknowledge received packets.
 - Lost packets can be inferred from the difference between sent and received packets across all nodes.
 - Telemetry data should include:
-    - **Packet ID** (to track individual messages).
-    - **Timestamp of sending and receiving** (to match sent and received packets).
-    - **Sender and receiver node IDs** (to reconstruct routing paths).
-    - **Total transmissions per packet** (to assess reliability per attempt).
+    - Packet ID (to track individual messages).
+    - Timestamp of sending and receiving (to match sent and received packets).
+    - Sender and receiver node IDs (to reconstruct routing paths).
+    - Total transmissions per packet (to assess reliability per attempt).
 
 2. Latency
 
@@ -37,7 +37,6 @@ How to Collect from Nodes:
     - Number of hops taken (to analyse delays at each node).
     - Retransmission delays (to determine the impact of resending packets).
 
- 
 ### **Secondary Performance Metrics**:
 
 3. Packet Overhead
@@ -91,3 +90,5 @@ Checkout `Metrics Folder` for some cool ones we can try to implement.
 **We also want to record:**
 Total number of packets being sent, number of acknowledgments being sent. 
 
+
+Note that all of the above metrics are calculated for each scenario, we would take the average of it for each number of nodes in our table of results. 

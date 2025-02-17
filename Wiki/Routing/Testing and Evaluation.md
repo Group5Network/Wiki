@@ -46,4 +46,11 @@ And for the video, can do the same experiment but in the peak district (of cours
 
 
 Procedurally Generated Tests:
-(diagrams to be added here for the different types)
+![[IMG_6121.jpg]]
+Do we want to avoid situations where there is max 1 hop? 
+Do we prefer max distance tests (from furthest node to furthest gateway)
+Or just loads of random tests? What amount of tests would be good enough so that we can disregard the random one hop tests? 
+If we were to eliminate 1 hops scenarios, then in big networks 2 hops might have the same effect so dynamically calculating if in this scenario hops required are proportional to the size of the network? but that depends on topology, so might have to do a network calculation. 
+
+Can we assume only one node is communicating? Meshtastic is known for infrequent communication and in this case, it would be use for emergencies only so can we just do that? Or do we add another dimension to rests to how many packets each node is communicating? But that communication density shouldnt be uniform as some nodes should transmit more than others. Hmmmm. 
+

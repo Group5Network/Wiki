@@ -62,7 +62,7 @@ How to Measure:
 - Number of packets in the queue at any given time.
 - Logging the decision-making delay for forwarding packets.
 
-5. Packet Generation Rate & Node Utilisation**
+5. Packet Generation Rate & Node Utilisation
 
 Definition:  
 Packet generation rate refers to how frequently nodes generate new packets. Node utilisation measures how busy each node is with handling, forwarding, or queueing packets.

@@ -48,6 +48,13 @@ If we were to eliminate 1 hops scenarios, then in big networks 2 hops might have
 
 Can we assume only one node is communicating? Meshtastic is known for infrequent communication and in this case, it would be use for emergencies only so can we just do that? Or do we add another dimension to rests to how many packets each node is communicating? But that communication density shouldnt be uniform as some nodes should transmit more than others. Hmmmm.
 
+Leandro Questions:
+- dummy packets in testing
+- verify simulator, aggregated results are enough?
+- rcf. email, copy leandro (cc), 
+
+Dummy packets. 
+
 Note about nodes going on and off:
 Rather than saying flat out if a node procedurally generated is on or off completely all the time,
 make it rather that a node goes on and off randomly.
@@ -67,3 +74,16 @@ where $(\lambda)$ controls the rate at which the node returns online.
 
 The probability of a node going offline at any timestep or if a node is already offline, whats the rate of it coming back online, all are variables that can be changed.
 So we can test how the routing changes in both variables vary.
+
+Another Note:
+NodeInfo broadcasts information to other nodes that it exists every 3 hours.
+We can decrease this so nodes know more often if a node goes back into its range, so it can
+send it the buffer of message that new node has probably not seen. However, we dont want to clutter the network with too many messages, so maybe if a node could identify itself as a mobile and add nearby nodes more often to send it packets it might have not seen based on the timestep. So not every node sends its info every 3 hours, but only the mobile nodes do.
+Hmmmm.
+
+Should we do a different retransmission policy? 
+
+How many retransmission would increase the probability of receiving the message at the destination?
+Variate that for another dimension of data.
+
+But can also do a different algorithm for that, like time of day etc. 

@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "8dae382f813de588",
+        "id": "62af8002bcbac062",
         "type": "tabs",
         "children": [
           {
-            "id": "4ea6eee7c7e27e80",
+            "id": "77221b12cf07d595",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Routing/Routing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Routing"
+            }
+          },
+          {
+            "id": "ab9a6401d3c8d8c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "Testing and Evaluation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,25 +177,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ea6eee7c7e27e80",
+  "active": "ab9a6401d3c8d8c8",
   "lastOpenFiles": [
-    "Routing/Metrics.md",
+    "Scenario.md",
+    "Brief.md",
+    "Simulation/Evaluation.md",
+    "Routing/Testing Managed-flooding.md",
     "Routing/Testing and Evaluation.md",
+    "Routing/Alternatives to Managed Flooding.md",
+    "Routing/Common Routing for WANs.md",
+    "Routing/Hardware Limitations.md",
+    "Routing/Metrics.md",
+    "Routing/Reliability.md",
     "Routing/Routing.md",
     "Routing/Success Criteria.md",
     "Images/IMG_6121.jpg",
     "Routing/Testing and Evaluation/Cool software.md",
     "Routing/Testing and Evaluation",
-    "Routing/Testing Managed-flooding.md",
-    "Routing/Reliability.md",
-    "Routing/Hardware Limitations.md",
-    "Routing/Common Routing for WANs.md",
-    "Simulation/Evaluation.md",
     "Routing/Metrics Notes/Testing Criteria.md",
     "Routing/Metrics Notes/Other Cool Metrics.md",
     "Routing/Metrics Notes/Redundant Paths.md",
     "Routing/Metrics Notes",
-    "Scenario.md",
     "Images",
     "Images/IMG_6078.jpg",
     "IMG_6078.heic",
@@ -192,7 +209,6 @@
     "Gateway/Evaluation.md",
     "Simulation",
     "Gateway",
-    "Routing/Alternatives to Managed Flooding.md",
     "Routing/Common Routing for WANs",
     "Routing/Initial Routing Ideas/Routing Caches.md",
     "Routing/Initial Routing Ideas/Energy-Efficient Routing with Duty-Cycle Adaptation.md",

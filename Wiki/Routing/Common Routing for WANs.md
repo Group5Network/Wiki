@@ -33,3 +33,27 @@ LoRa networks have very low data rates (typically 300 bps – 50 kbps). Proactiv
 Routing tables require memory and CPU cycles, which drain battery faster. To implement AODV and BATMAN you would need to reduce control overhead, which is too big of a task.
 
 So I think none of them will work :(
+
+
+To reference later:
+https://www.yorkshiredales.org.uk/park-authority/living-and-working/tourism-in-the-dales/for-tourism-businesses/tourism-facts-and-figures/#:~:text=In%202023%2C%20the%20Yorkshire%20Dales,for%20the%20calendar%20year%202022.
+
+https://www.yorkshiredales.org.uk/things-to-do/get-outdoors/where-can-i-go/types-of-paths-and-trails/
+
+https://www.nj.gov/transportation/business/research/reports/FHWA-NJ-2001-027.pdf
+
+
+#### **Project Objectives**  
+We aim to:
+1. **Develop an APRS-Meshtastic Gateway** – Implement a system that allows unlicensed Meshtastic users to send emergency messages through APRS infrastructure. This requires designing a protocol translation mechanism and ensuring compliance with APRS transmission regulations. Notably, only the gateway administrator requires an amateur radio licence, meaning unlicensed users can still transmit messages indirectly through Meshtastic.
+
+2. **Optimise Routing Algorithms** – Evaluate alternative routing mechanisms to improve message delivery reliability without excessive retransmissions. Traditional WAN mesh algorithms such as OLSR and DSDV are unsuitable for LoRa networks due to their frequent update transmissions consuming too much bandwidth and draining battery life. Instead, we focus on low-computation approaches such as Gossip-Based Routing and Smart Hop Limit Adjustment to improve network efficiency while maintaining minimal overhead.
+
+3. **Create a Simulation Environment** – Develop a Meshtastic simulator to model various network topologies and test routing algorithms under different real-world conditions. The simulator will enable rapid testing before implementing algorithms on physical hardware, allowing for optimised performance tuning.
+
+4. **Implement and Test in Hardware** – Once the best routing algorithms are identified through simulation, they will be deployed on real Meshtastic nodes and tested in outdoor environments to evaluate practical performance and reliability. Testing will be conducted in various terrains, including open fields and forested areas, to assess real-world feasibility.
+
+The successful implementation of this project will enable unlicensed users to reliably send emergency messages through APRS, bridging the communication gap for remote and off-grid communities. Additionally, the routing improvements will enhance Meshtastic’s general usability, making it more viable for emergency response and disaster communication scenarios.
+
+
+[Details on the gateway architecture and simulator implementation need to be added.]

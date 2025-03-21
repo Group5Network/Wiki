@@ -51,3 +51,6 @@ Given these constraints, improving message success rates, reducing latency, and 
 Notes:
 For this scenario, the hiker has no effect on where the gateway is in relation to him when he needs to transmit a SOS, so is gateway location a testable part of this project? I don't think so but it would still be nice. 
 See testing. 
+
+
+What kind of graphs would be nice for the draft? 

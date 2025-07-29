@@ -36,3 +36,4 @@ What do we want to test in the real world:
 - How many nodes inside of the experiments.
 - observability, piggy backing,
 - how to find malicious nodes (which would allow for prioritisation fo messages).
+
